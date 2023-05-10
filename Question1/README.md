@@ -20,7 +20,7 @@ The main function demonstrates the usage of the code by performing addition, mul
 
 The source code provided in this repository is written in C programming language. To compile and run the code, you need a C compiler installed on your system. Here are the recommended development environments:
 
-- Online Compilers: The code is compatible with online C compilers such as (programiz)[https://www.programiz.com/c-programming/online-compiler]. You can copy and paste the code into the respective online compiler and execute it.
+- Online Compilers: The code is compatible with online C compilers such as [programiz](https://www.programiz.com/c-programming/online-compiler). You can copy and paste the code into the respective online compiler and execute it.
 
 - Linux Machine (Intel x86_64): To run the code on a Linux machine with an Intel x86_64 architecture, follow the instructions below.
 
