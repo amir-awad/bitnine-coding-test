@@ -39,7 +39,7 @@ To compile and run the source code, follow these steps:
    int main() {
 
        for(int i = 0; i < 10; i++) {
-           printf("F1(%d): %lld, F2(%d): %lld, F3(%d): %lld", i, F1(i), i, F2(i), i, F3(i));
+           printf("F1(%d): %lld, F2(%d): %lld, F3(%d): %lld\n", i, F1(i), i, F2(i), i, F3(i));
        }
 
        return 0;
