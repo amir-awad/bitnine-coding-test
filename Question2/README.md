@@ -32,13 +32,27 @@ To compile and run the source code, follow these steps:
 
 2. Navigate to the directory where the source code file is located.
 
-3. Use the appropriate compiler command to compile the code. For example, with GCC, you can use the following command
+3. You should add main function to the code. For example, you can use the following code:
+
+   ```c
+   #include <stdio.h>
+   int main() {
+
+       for(int i = 0; i < 10; i++) {
+           printf("F1(%d): %lld, F2(%d): %lld, F3(%d): %lld", i, F1(i), i, F2(i), i, F3(i));
+       }
+
+       return 0;
+   }
+   ```
+
+4. Use the appropriate compiler command to compile the code. For example, with GCC, you can use the following command
 
    ```shell
    gcc main.c -o main_executable
    ```
 
-4. Finally, run the compiled program using the following command:
+5. Finally, run the compiled program using the following command:
 
    ```shell
    ./main_executable
